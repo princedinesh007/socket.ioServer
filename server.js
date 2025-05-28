@@ -19,7 +19,7 @@ const server =http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: 'https://dineshchitchat.netlify.app/chatpage',
+    origin: 'https://dineshchitchat.netlify.app',
     methods: ['GET', 'POST'],
     credentials: true
   }
